@@ -45,14 +45,15 @@ const data = [33, 45, 8, 27];
     for (const element of input) {
         results += element
     }
-    return results;
+    // // return results;
  } 
 //  console.log(sumArray(data))
 //====================================================
 // 3.Define a function, as a function declaration, isCharAVowelthat takes a character as an argument and returns true if it is a vowel, false otherwise.
+
 function isCharAVowel (char) {
  
-  if (char && 'a' && 'e' && 'i' && 'o' && 'u') {
+  if (char == 'a' || char == 'b' || char == 'e' || char == 'i' || char == 'o' || char == 'u') {
       return "The Character is a Vowel";
   } else {
    
@@ -60,4 +61,4 @@ function isCharAVowel (char) {
   }
 }
 
-// console.log(isCharAVowel('u'));
+// console.log(isCharAVowel('x'));
